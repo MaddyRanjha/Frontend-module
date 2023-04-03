@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ModuleTest from './ModuleTest';
+import ModuleMock from './moduleMock';
+import Stopwatch from './stopwatch';
+import Mocktest from './mocktest';
+import Mocktest31 from './mocktest31';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <ModuleTest />
+     {/* <ModuleMock /> */}
+    {/* <Stopwatch /> */} 
+    {/* <Mocktest /> */}
+    {/* <Mocktest31 /> */}
   </React.StrictMode>
 );
 
